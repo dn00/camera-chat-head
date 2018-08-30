@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drawable_circle_white"
+    android:id="@+id/chathead_relativelayout">
+
+
+
+        <com.dtnguy.camerachathead.CameraGLView
+            android:id="@+id/cameraView"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"/>
+
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chathead_img"
+        android:layout_gravity="center"
+        android:src="@drawable/bobo2" />
+
+</FrameLayout >
